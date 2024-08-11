@@ -19,7 +19,6 @@ This portfolio contains the following sections:
 - **HTML**
 - **CSS**
 - **JavaScript**
-- **php**
 - **Deployment:** GitHub Pages
 
 Thank you for visiting!

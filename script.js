@@ -34,20 +34,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); 
-    var formData = new FormData(this);
-
-    fetch('contact.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.text())
-    .then(data => {
-        alert(data);
-    })
-    .catch(error => {
-        alert('Failed to send message.');
-        console.error('Error:', error);
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
+        
+        if (!name || !email || !message) {
+            alert('All fields must be filled out.');
+            return false;
+        }
+    
+        form.submit();
     });
 });
 

@@ -51,3 +51,34 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     });
 });
 
+document.addEventListener('keydown', function(e) {
+    if(e.key === 'F12') {
+        e.preventDefault();
+        window.location.href = 'https://www.google.com';
+    }
+    if(e.ctrlKey && (e.shiftKey && (e.key === 'I' || e.key === 'C' || e.key === 'J') || e.key === 'U') ) {
+        e.preventDefault();
+        window.location.href = 'https://www.google.com';
+    }
+});
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+(function() {
+    const handler = setInterval(() => {
+        if (typeof window.devtools !== 'undefined') {
+            clearInterval(handler);
+            window.location.href = 'about:blank';
+        }
+    }, 1000);
+    const element = new Image();
+    Object.defineProperty(element, 'id', {
+        get: function() {
+            window.devtools = true;
+            throw new Error('DevTools detected');
+        }
+    });
+    console.log(element);
+})();

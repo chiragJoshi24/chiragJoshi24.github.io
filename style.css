@@ -3,19 +3,14 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-}
-
-html {
     scroll-behavior: smooth;
 }
-
 body {
     background-color: #041117;
     color: white;
     background-size: contain;
     position: relative;
 }
-
 .first {
     border-top: 10px;
     background-size: cover;
@@ -23,14 +18,12 @@ body {
     height: 125%;
     background-image: url(/images/bg.png);
 }
-
 .second {
     background-color: #041117;
     width: 100%;
     height: 100%;
     display: block;
 }
-
 nav {
     position: fixed;
     top: 0;
@@ -42,7 +35,6 @@ nav {
     height: 120px;
     padding: 0 20px;
 }
-
 .logo {
     filter: invert(1);
     height: 30px;
@@ -50,11 +42,6 @@ nav {
     margin-right: 30px;
     margin-left: 100px;
 }
-
-.menu {
-    width: 100%;
-}
-
 .temp {
     display: flex;
     justify-content: center;
@@ -63,50 +50,41 @@ nav {
     padding: 0;
     gap: 40px;
 }
-
 .navbar {
     list-style: none;
 }
-
 .navbar a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
-
 .navbar a:hover {
     color: white;
     text-shadow: 0 0 10px #2ca4bf, 0 0 20px #2ca4bf, 0 0 30px #2ca4bf;
     transform: scale(1.1);
 }
-
 ul li {
     list-style-type: disc;
 }
-
 #leetcode {
     filter: invert(1);
     height: 33px;
 }
-
 .text2 {
     font-size: 1.5rem;
     font-weight: 700;
 }
-
 .typer {
     overflow: hidden;
     color: rgb(39, 136, 248);
     font-size: 2.6rem;
     text-shadow: 0 0 10px #000000;
 }
-
 .intro {
     padding-right: 10px;
     margin-right: 10px;
     width: 75%;
 }
-
 .text3 {
     width: 90%;
     font-weight: 300;
@@ -114,13 +92,11 @@ ul li {
     display: flex;
     font-size: 20px;
 }
-
 .container {
     display: flex;
     margin-left: 150px;
     margin-top: 120px;
 }
-
 .social a {
     width: 35px;
     height: 35px;
@@ -133,24 +109,17 @@ ul li {
     margin-right: 30px;
     text-decoration: none;
 }
-
-h2 {
-    margin-top: 15px;
-}
-
 img {
     border-radius: 10px;
     width: 100%;
     display: inline;
 }
-
 .talents {
     margin: 50px;
     display: flex;
     padding-right: 20px;
     justify-content: center;
 }
-
 .card,
 a .card {
     position: relative;
@@ -171,25 +140,20 @@ a .card {
     transform: translateX(-100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
-
 .card.fade-in {
     opacity: 1;
     transform: translateX(0);
 }
-
 .projectLink {
     transition: transform 0.1s ease;
 }
-
 .projectLink:hover {
     transform: scale(1.04);
 }
-
 .description {
     margin-top: 20px;
     font-size: large;
 }
-
 .card2 {
     display: inline-block;
     margin-right: 10px;
@@ -200,43 +164,35 @@ a .card {
     z-index: 1;
     opacity: 0;
     transition: opacity 1s ease-out, transform 1s ease-out;
-
-
 }
-
 .card2 {
     transform: translateX(100px);
 }
-
 .card2.fade-in {
     opacity: 1;
     transform: translateX(0);
 }
-
 .talentImg img {
     height: 200px;
     object-fit: fill;
     width: 100%;
     margin-bottom: 20px;
 }
-
 h1 {
     margin-top: 250px;
     margin-left: 150px;
     font-weight: 1000;
     font-size: -webkit-xxx-large;
 }
-
 h2 {
+    margin-top: 15px;
     font-size: xx-large;
     margin-bottom: 20px;
 }
-
 .left {
     padding-left: 100px;
     margin-right: 20px;
 }
-
 .right {
     padding-left: 50px;
     padding-right: 50px;
@@ -245,20 +201,16 @@ h2 {
     background-color: #2092e9;
     border: 1px solid wheat;
 }
-
 #xLarge {
     font-size: large;
 }
-
 .form-group {
     margin-bottom: 15px;
 }
-
 .form-group label {
     display: block;
     margin-bottom: 5px;
 }
-
 .form-group input,
 .form-group textarea {
     width: 100%;
@@ -266,7 +218,6 @@ h2 {
     border: none;
     border-radius: 5px;
 }
-
 button[type="submit"] {
     display: block;
     width: 100%;
@@ -278,11 +229,9 @@ button[type="submit"] {
     cursor: pointer;
     font-size: 1rem;
 }
-
 button[type="submit"]:hover {
     background-color: #5bd4db;
 }
-
 #contactasd {
     display: inline-block;
     vertical-align: top;
@@ -293,32 +242,27 @@ button[type="submit"]:hover {
     border-width: 1px;
     width: 500px;
 }
-
 #wonderBoy {
     margin-left: 20px;
     margin-right: 100px;
 }
-
 .footer-section {
     background-color: rgb(2, 21, 38);
     color: #F1F1F1;
     text-align: center;
     padding: 5px;
 }
-
 #contactasd,
 #wonderBoy {
     opacity: 0;
     transform: translateY(100px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
-
 #contactasd.fade-in,
 #wonderBoy.fade-in {
     opacity: 1;
     transform: translateY(0);
 }
-
 .footer-content {
     display: flex;
     flex-direction: column;

@@ -1,5 +1,6 @@
 {
   "name": "chiragjoshi24-github-io",
+  "homepage": "https://chiragJoshi24.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +8,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "blobity": "^0.2.3",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.1",
     "react-type-animation": "^3.2.0",
     "three": "^0.171.0",
     "vue": "^3.5.13"

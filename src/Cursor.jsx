@@ -7,9 +7,9 @@ const Cursor = () => {
     useBlobity({
         licenseKey: 'opensource',
         zIndex: 500,
-        opacity: 0.75,
+        opacity: 0.65,
         focusableElements: 'a, button',
-        color: '#FBDCD3',
+        color: '#FFFFFF',
         invert: false,
     });
 

@@ -8,7 +8,7 @@ const Card = ({ title = 'Lorem Ipsum', description = 'Lorem ipsum dolor sit amet
         <div className="p-6">
           <h2 className="text-2xl font-semibold text-gray-800">{title}</h2>
           <p className="text-gray-600 mt-2">{description}</p>
-          <p className='text-gray-800 text-right my-2 pr-2'>{techStack}</p>
+          <p className='text-gray-800 font-medium text-right my-2 pr-2'>{techStack}</p>
         </div>
       </div>
     </a>

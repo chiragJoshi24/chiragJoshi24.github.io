@@ -18,7 +18,7 @@ const FirstPage = () => {
                         wrapper="span"
                         style={{
                             background: 'transparent',
-                            color: '#00FCFC',
+                            color: '#48CFCB',
                             textShadow: '2px 2px 5px rgba(0, 255, 255, 0.6)'
                         }}
                         speed={10}

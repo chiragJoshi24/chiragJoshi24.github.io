@@ -1,13 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chirag Joshi | HomePage</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="assets/logo.png" />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet"/>
+        <title>HomePage</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="/assets/image.gif" alt="" class="cool" />
+            <div class="links">
+                <a href="https://www.leetcode.com/u/chirag45610" target="_blank"><img src="/assets/leetcode.png" alt=""/></a>
+                <a href="https://www.github.com/chiragJoshi24" target="_blank"><img src="/assets/github.png" alt=""/></a>
+                <a href="https://hashnode.com/@chiragj2403" target="_blank"><img src="/assets/hashnode.png" alt=""/></a>
+                <a href="https://www.linkedin.com/in/chirag-joshi-67b464216/" target="_blank"><img src="/assets/linkedin.png" alt=""/></a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h1>Welcome</h1>
+                <h2>I'm Chirag Joshi</h2>
+                <br />
+                <div><span> I'm a </span><span id="typer"></span></div>
+            </div>
+            <div class="right">
+                <h2>PROJECT LINKS</h2>
+                <br /><br />
+                <ul>
+                    <li><a href="https://chiragJoshi24.github.io/portfolio" target="_blank" >Portfolio Website</a></li>
+                    <li><a href="https://personalgpt-3cv0.onrender.com" target="_blank">PersonalGPT</a></li>
+                    <li><a href="https://github.com/chiragJoshi24/Nifti-to-3D" target="_blank">NIfTI to 3D Converter</a></li>
+                    <li><a href="https://chiragJoshi24.github.io/yetAnotherToDo" target="_blank">Yet Another To Do</a></li>
+                </ul>
+            </div>
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#typer', {
+                strings: [
+                    'Competitive Coder.',
+                    'Full Stack Developer.',
+                    'Designer.',
+                ],
+                typeSpeed: 50,
+                backDelay: 2000,
+                backSpeed: 25,
+                loop: true,
+            });
+        </script>
+    </body>
 </html>

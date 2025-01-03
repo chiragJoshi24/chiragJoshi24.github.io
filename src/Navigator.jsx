@@ -25,11 +25,11 @@ const Navigator = () => {
                 techStack='HTML CSS JavaScript'
             />
             <Card 
-                title='Personal ChatGPT'
+                title='PersonalGPT'
                 description='Built for dynamic conversations, it adapts to user needs with customized responses and features. Sleek design ensures seamless navigation, enhancing productivity and engagement through intuitive functionality and a responsive interface suitable for diverse devices and use cases.'
                 image={Openai}
-                link='https://chiragjoshi24.github.io/PersonalChatGPT'
-                techStack='Python'
+                link='https://personalgpt-3cv0.onrender.com/'
+                techStack='Python, React, Firebase, Google Gemini'
             />
         </div>
         <footer className='bottom-10 pb-2 text-white font-black w-full bg-[] text-center'>Copyright &copy; Chirag Joshi 2024 </footer>

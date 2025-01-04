@@ -31,7 +31,21 @@ a {
     text-decoration: none;
     color: white;
     font-size: 2rem;
+    transition: transform 0.1s ease-in-out;
 }
+a:hover {
+    transform:scale(1.2);
+}
+.right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.1s ease-in-out;
+}
+
+.right ul li a:hover {
+    transform: scale(1.1);
+}
+
 h1 {
     font-size: 6rem;
 }
